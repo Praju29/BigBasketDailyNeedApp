@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyBigBasket" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/lightgreen</item>
+    </style>
+
+    <style name="Theme.MyBigBasket" parent="Base.Theme.MyBigBasket" />
+
+    <style name="Theme.MyBigBasket.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MyBigBasket.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyBigBasket.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
