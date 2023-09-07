@@ -1,0 +1,168 @@
+/* productDetails.css */
+
+.details-home {
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 575px;
+  }
+  
+  .details-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .details-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  
+/*   
+  .details-image-section img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  } */
+  
+  .details-card-title {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .details-card-text {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .details-card-text div {
+    margin: 5px 0;
+  }
+  
+  .details-card h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .details-plus,
+  .details-minus {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .details-plus:hover,
+  .details-minus:hover {
+    background-color: #0056b3;
+  }
+  
+  .details-placeOrder {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .details-addbtn1,
+  .details-closebtn1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .details-closebtn1 {
+    background-color: #007bff;
+  }
+  
+  .details-addbtn1:hover,
+  .details-closebtn1:hover {
+    background-color: #0056b3;
+  }
+  
+  /**/
+  .details-card-body {
+    display: flex; /* Use flexbox to arrange the elements side by side */
+  }
+  
+  .details-image-section {
+    flex: 1; /* Allow this section to grow to take available space */
+    margin-right: 20px; /* Add some spacing between the sections */
+  }
+  
+  .detaildiv {
+    flex: 2; /* Allow this section to grow to take available space */
+  }
+  
+  .review-list {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto;
+    margin-top: 10px; /* Optional: Add margin to separate from other elements */
+  }
+
+  .reviewClose{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .viewReview {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .buycontainer {
+    display: flex;
+    justify-content: space-between; /* This will evenly space the buttons */
+  }

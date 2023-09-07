@@ -1,0 +1,26 @@
+.mysidenav {
+    background-color: blueviolet !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* width: 250px; Set the width of the sidenav */
+    position: fixed; /* Make it a fixed element */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* z-index: 1; Ensure it appears above other content */
+  }
+
+  .logout-button {
+   margin-left: 1150px;
+   margin-top: 20px;
+   background-color: #194d25;
+   color: #fff;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 14px;
+  }
+
+  .logout-button:hover {
+    background-color: #c82333;
+  }

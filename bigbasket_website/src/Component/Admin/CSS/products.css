@@ -1,0 +1,171 @@
+/* Products.css */
+
+.page {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 100px;
+    padding: 0 20px;
+  }
+  
+  .divsearch {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+  }
+  
+  .searchbtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+ 
+  
+  .addp {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+   
+  }
+  
+  .popup-overlay1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content h3 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .popup-content select,
+  .popup-content input[type="text"],
+  .popup-content input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .addbtn1,
+  .closebtn1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .prductList {
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .table td img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+  }
+  
+  /* .del1 {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  } */
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .delete{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .addProdCont {
+    display: flex;
+    justify-content: space-between; /* This will evenly space the buttons */
+  }

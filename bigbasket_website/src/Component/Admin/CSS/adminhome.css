@@ -1,0 +1,105 @@
+/* AdminHome.css */
+.container1 {
+    
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .imgdiv {
+    flex: 2;
+    background: url('/home/dmc/Desktop/frontend_react/bigbasket_website/src/Component/Admin/images/logo.jpg') center/cover no-repeat;
+    height: 300px; /* Set an appropriate height */
+    margin-top: 20px;
+  }
+  
+  .boxdiv {
+    flex: 2;
+    background: #ffffff;
+    padding: 20px;
+    
+  }
+  
+  .div1,
+  .div2,
+  .div3 {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: 140px;
+    
+    
+    
+  }
+  .div2,
+  .div3 {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  .div1{
+    color: white;
+  background-color: #DA70D6;
+  }
+  .div3 {
+    color: white;
+    background-color: #4B0082;
+  }
+  .div2 {
+    color: white;
+    background-color: #8A2BE2;
+    
+  }
+  
+  .div1 h1,
+  .div2 h1,
+  .div3 h1 {
+    color: white;
+  }
+  
+  .subboxdiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tbl-orders {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-top: 10px;
+  }
+  
+  .tbl-orders h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+  
+  /* Add more specific styling as needed */
+  

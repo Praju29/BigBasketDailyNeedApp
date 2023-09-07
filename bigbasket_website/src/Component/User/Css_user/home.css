@@ -1,0 +1,100 @@
+/* Style for the card container */
+.home{
+  background-color: #f0f0f0;
+}
+
+.image-slider {
+    position: relative;
+  }
+  
+  .image-slider img {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+  
+
+  }
+  
+  .divsearch1 {
+    margin-top: 20px;
+    text-align: center;
+    
+  }
+  
+  .search-bar1 {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 500px;
+  }
+  
+  .search-bar1 input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .searchbtn1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-left: 60px;
+  }
+.card {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    /* margin: 5px; */
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    
+  }
+  
+  /* Style for the card image */
+  .card img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .row{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  /* Style for the card title */
+  .card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Style for the card price */
+  .card .card-price {
+    color: #e91e63;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Style for the "View Details" button */
+  .card .viewbtn {
+    background-color: #144701;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .card .viewbtn:hover {
+    background-color: #ff4081;
+  }
+  
